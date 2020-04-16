@@ -13,9 +13,9 @@ alias gcp='git cherry-pick'
 alias homegit="GIT_DIR=~/projects/dotfiles/.git GIT_WORK_TREE=~ git"
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/mybiz/google-cloud-sdk/path.bash.inc' ]; then . '/Users/mybiz/google-cloud-sdk/path.bash.inc'; fi
+if [ -f '~/google-cloud-sdk/path.bash.inc' ]; then . '~/google-cloud-sdk/path.bash.inc'; fi
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/mybiz/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/mybiz/google-cloud-sdk/completion.bash.inc'; fi
+if [ -f '~/google-cloud-sdk/completion.bash.inc' ]; then . '~/google-cloud-sdk/completion.bash.inc'; fi
 
 # ANDROID APP DEVELOPMENT
 export ANDROID_HOME=$HOME/Library/Android/sdk
